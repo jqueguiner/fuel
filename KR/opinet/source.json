@@ -1,0 +1,20 @@
+{
+  "source": {
+    "name": "Opinet (Korea National Oil Corp) — per-station (free key)",
+    "country": "KR",
+    "url": "https://www.opinet.co.kr/api/",
+    "format": "json-api",
+    "license": "KNOC open API",
+    "key_required": true,
+    "realtime": true,
+    "per_station": true,
+    "coverage": "national",
+    "fuels": [
+      "gasoline",
+      "premium",
+      "diesel",
+      "lpg"
+    ]
+  },
+  "status": "needs-key"
+}

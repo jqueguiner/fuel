@@ -1,0 +1,20 @@
+{
+  "source": {
+    "name": "Secretaría de Energía — precios en surtidor (per-station, keyless CSV)",
+    "country": "AR",
+    "url": "http://datos.energia.gob.ar/dataset/precios-en-surtidor-resolucion-3142016",
+    "format": "csv",
+    "license": "Datos Abiertos AR",
+    "key_required": false,
+    "realtime": true,
+    "per_station": true,
+    "coverage": "national",
+    "fuels": [
+      "nafta_super",
+      "nafta_premium",
+      "gasoil",
+      "gnc"
+    ]
+  },
+  "status": "active"
+}

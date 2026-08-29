@@ -1,0 +1,20 @@
+{
+  "source": {
+    "name": "EIA gasoline/diesel prices (api.eia.gov, free key) — regional/state AVERAGES",
+    "country": "US",
+    "url": "https://api.eia.gov/v2/petroleum/pri/gnd/data/",
+    "format": "json-api",
+    "license": "EIA public",
+    "key_required": true,
+    "realtime": true,
+    "per_station": false,
+    "coverage": "state-average",
+    "fuels": [
+      "regular",
+      "midgrade",
+      "premium",
+      "diesel"
+    ]
+  },
+  "status": "needs-key"
+}

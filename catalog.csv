@@ -1,26 +1,33 @@
 country,source,name,format,key_required,realtime,per_station,coverage,url
+AR,datos-energia,"Secretaría de Energía — precios en surtidor (per-station, keyless CSV)",csv,no,yes,yes,national,http://datos.energia.gob.ar/dataset/precios-en-surtidor-resolucion-3142016
 AT,e-control,"E-Control Spritpreisrechner (regulated, free, rate-limited)",json-api,no,yes,yes,national,https://api.e-control.at/sprit/1.0/search/gas-stations/by-address
-AU,nsw-fuelcheck,"NSW FuelCheck (data.nsw.gov.au, free API key)",json-api,yes,yes,yes,regional-NSW,https://api.onegov.nsw.gov.au/FuelPriceCheck/v1/fuel/prices
+AU,fuelwatch-wa,"FuelWatch WA (Government of Western Australia) — RSS, keyless",rss-xml,no,yes,yes,regional-WA,https://www.fuelwatch.wa.gov.au/fuelwatch/fuelWatchRSS
+AU,nsw-fuelcheck,"NSW FuelCheck (data.nsw.gov.au, free key)",json-api,yes,yes,yes,regional-NSW,https://api.onegov.nsw.gov.au/FuelPriceCheck/v1/fuel/prices
+AU,qld-fuel,"QLD Fuel Price Reporting (data.qld.gov.au, free key)",json-api,yes,yes,yes,regional-QLD,https://fppdirectapi-prod.fuelpricesqld.com.au/Price/GetSitesPrices
 BR,anp,"ANP Série Histórica de Preços (semanal, média)",xlsx,no,no,no,national-weekly-avg,https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/precos-revenda-e-de-distribuicao-combustiveis
 CL,cne,"CNE Bencina en Línea (Comisión Nacional de Energía, token)",json-api,yes,yes,yes,national,https://api.cne.cl/api/listaInformacion
 DE,tankerkoenig,"Tankerkönig (MTS-K official data, free API key)",json-api,yes,yes,yes,national,https://creativecommons.tankerkoenig.de/json/list.php
 ES,minetur,Ministerio (sedeaplicaciones.minetur.gob.es) — Estaciones Terrestres,json,no,yes,yes,national,https://sedeaplicaciones.minetur.gob.es/ServiciosRESTCarburantes/PreciosCarburantes/EstacionesTerrestres/
 FR,prix-carburants,Prix des carburants — flux instantané (data.economie.gouv.fr),opendatasoft-json,no,yes,yes,national,https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/records
-GB,cma-applegreen,CMA — Applegreen,json,no,yes,yes,national-retailer,https://applegreenstores.com/fuel-prices/data.json
-GB,cma-ascona,CMA — Ascona Group,json,no,yes,yes,national-retailer,https://fuelprices.asconagroup.co.uk/newfuel.json
-GB,cma-asda,CMA — Asda,json,no,yes,yes,national-retailer,https://storelocator.asda.com/fuel_prices_data.json
-GB,cma-bp,CMA — BP,json,no,yes,yes,national-retailer,https://www.bp.com/en_gb/united-kingdom/home/fuelprices/fuel_prices_data.json
-GB,cma-jet,CMA — JET Retail UK,json,no,yes,yes,national-retailer,https://jetlocal.co.uk/fuel_prices_data.json
-GB,cma-morrisons,CMA — Morrisons,json,no,yes,yes,national-retailer,https://www.morrisons.com/fuel-prices/fuel.json
-GB,cma-moto,CMA — Moto,json,no,yes,yes,national-retailer,https://moto-way.com/fuel-price/fuel_prices.json
-GB,cma-motorfuelgroup,CMA — Motor Fuel Group,json,no,yes,yes,national-retailer,https://fuel.motorfuelgroup.com/fuel_prices_data.json
-GB,cma-rontec,CMA — Rontec,json,no,yes,yes,national-retailer,https://www.rontec-servicestations.co.uk/fuel-prices/data/fuel_prices_data.json
-GB,cma-sainsburys,CMA — Sainsbury's,json,no,yes,yes,national-retailer,https://api.sainsburys.co.uk/v1/exports/latest/fuel_prices_data.json
-GB,cma-sgn,CMA — SGN/Shell,json,no,yes,yes,national-retailer,https://www.shell.co.uk/fuel-prices-data.html
-GB,cma-tesco,CMA — Tesco,json,no,yes,yes,national-retailer,https://www.tesco.com/fuel_prices/fuel_prices_data.json
+GB,cma-applegreen,CMA scheme — Applegreen,json,no,yes,yes,national-retailer,https://applegreenstores.com/fuel-prices/data.json
+GB,cma-ascona,CMA scheme — Ascona Group,json,no,yes,yes,national-retailer,https://fuelprices.asconagroup.co.uk/newfuel.json
+GB,cma-asda,CMA scheme — Asda,json,no,yes,yes,national-retailer,https://storelocator.asda.com/fuel_prices_data.json
+GB,cma-bp,CMA scheme — BP,json,no,yes,yes,national-retailer,https://www.bp.com/en_gb/united-kingdom/home/fuelprices/fuel_prices_data.json
+GB,cma-jet,CMA scheme — JET Retail UK,json,no,yes,yes,national-retailer,https://jetlocal.co.uk/fuel_prices_data.json
+GB,cma-morrisons,CMA scheme — Morrisons,json,no,yes,yes,national-retailer,https://www.morrisons.com/fuel-prices/fuel.json
+GB,cma-moto,CMA scheme — Moto,json,no,yes,yes,national-retailer,https://moto-way.com/fuel-price/fuel_prices.json
+GB,cma-motorfuelgroup,CMA scheme — Motor Fuel Group,json,no,yes,yes,national-retailer,https://fuel.motorfuelgroup.com/fuel_prices_data.json
+GB,cma-rontec,CMA scheme — Rontec,json,no,yes,yes,national-retailer,https://www.rontec-servicestations.co.uk/fuel-prices/data/fuel_prices_data.json
+GB,cma-sainsburys,CMA scheme — Sainsbury's,json,no,yes,yes,national-retailer,https://api.sainsburys.co.uk/v1/exports/latest/fuel_prices_data.json
+GB,cma-sgn,CMA scheme — SGN/Shell,json,no,yes,yes,national-retailer,https://www.shell.co.uk/fuel-prices-data.html
+GB,cma-tesco,CMA scheme — Tesco,json,no,yes,yes,national-retailer,https://www.tesco.com/fuel_prices/fuel_prices_data.json
 GR,data.gov.gr,"Παρατηρητήριο Τιμών Υγρών Καυσίμων (data.gov.gr, token)",json-api,yes,yes,no,national-avg,https://data.gov.gr/api/v1/query/oil_prices
 IN,iocl-rsp,IOCL/BPCL/HPCL daily retail selling price (city-level),html,no,yes,no,city-level,https://iocl.com/petrol-diesel-price
 IT,mimit-osservaprezzi,MIMIT Osservaprezzi Carburanti (prezzo + anagrafica CSV),csv,no,yes,yes,national,https://www.mimit.gov.it/images/exportCSV/prezzo_alle_8.csv
+KR,opinet,Opinet (Korea National Oil Corp) — per-station (free key),json-api,yes,yes,yes,national,https://www.opinet.co.kr/api/
 LU,data.public.lu,"Prix maximaux carburants (gouvernement, réglementé)",csv,no,no,no,national-maxprice,https://data.public.lu/fr/datasets/prix-des-carburants/
+MX,cre,"CRE datos abiertos — precios de gasolina (per-station, keyless)",xml,no,yes,yes,national,https://publicacionexterna.azurewebsites.net/publicaciones/prices
 PT,dgeg,DGEG Preços Combustíveis Online,json-api,no,yes,yes,national,https://precos.dgeg.gov.pt/api
+US,aaa,AAA Gas Prices — state/metro daily AVERAGES (keyless HTML),html,no,yes,no,state-average,https://gasprices.aaa.com/state-gas-price-averages/
+US,eia,"EIA gasoline/diesel prices (api.eia.gov, free key) — regional/state AVERAGES",json-api,yes,yes,no,state-average,https://api.eia.gov/v2/petroleum/pri/gnd/data/
 ZA,dmre,"DMRE Regulated Fuel Prices (monthly, fixed)",pdf,no,no,no,national-regulated,https://www.energy.gov.za/files/petroleum_frame.html

@@ -1,20 +1,19 @@
 {
   "source": {
-    "name": "NSW FuelCheck (data.nsw.gov.au, free key)",
+    "name": "QLD Fuel Price Reporting (data.qld.gov.au, free key)",
     "country": "AU",
-    "url": "https://api.onegov.nsw.gov.au/FuelPriceCheck/v1/fuel/prices",
+    "url": "https://fppdirectapi-prod.fuelpricesqld.com.au/Price/GetSitesPrices",
     "format": "json-api",
     "license": "CC BY 4.0",
     "key_required": true,
     "realtime": true,
     "per_station": true,
-    "coverage": "regional-NSW",
+    "coverage": "regional-QLD",
     "fuels": [
       "U91",
       "P95",
       "P98",
-      "DL",
-      "LPG"
+      "Diesel"
     ]
   },
   "status": "needs-key"

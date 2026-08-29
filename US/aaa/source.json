@@ -1,0 +1,20 @@
+{
+  "source": {
+    "name": "AAA Gas Prices — state/metro daily AVERAGES (keyless HTML)",
+    "country": "US",
+    "url": "https://gasprices.aaa.com/state-gas-price-averages/",
+    "format": "html",
+    "license": "AAA public",
+    "key_required": false,
+    "realtime": true,
+    "per_station": false,
+    "coverage": "state-average",
+    "fuels": [
+      "regular",
+      "midgrade",
+      "premium",
+      "diesel"
+    ]
+  },
+  "status": "active"
+}

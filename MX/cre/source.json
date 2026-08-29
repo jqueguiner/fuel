@@ -1,0 +1,19 @@
+{
+  "source": {
+    "name": "CRE datos abiertos — precios de gasolina (per-station, keyless)",
+    "country": "MX",
+    "url": "https://publicacionexterna.azurewebsites.net/publicaciones/prices",
+    "format": "xml",
+    "license": "Datos Abiertos MX",
+    "key_required": false,
+    "realtime": true,
+    "per_station": true,
+    "coverage": "national",
+    "fuels": [
+      "regular/magna",
+      "premium",
+      "diesel"
+    ]
+  },
+  "status": "active"
+}

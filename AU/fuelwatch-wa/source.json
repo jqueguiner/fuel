@@ -1,0 +1,21 @@
+{
+  "source": {
+    "name": "FuelWatch WA (Government of Western Australia) — RSS, keyless",
+    "country": "AU",
+    "url": "https://www.fuelwatch.wa.gov.au/fuelwatch/fuelWatchRSS",
+    "format": "rss-xml",
+    "license": "WA Government open",
+    "key_required": false,
+    "realtime": true,
+    "per_station": true,
+    "coverage": "regional-WA",
+    "fuels": [
+      "ULP",
+      "PULP95",
+      "PULP98",
+      "diesel",
+      "LPG"
+    ]
+  },
+  "status": "active"
+}
