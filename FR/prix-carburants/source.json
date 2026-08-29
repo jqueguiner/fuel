@@ -1,0 +1,22 @@
+{
+  "source": {
+    "name": "Prix des carburants — flux instantané (data.economie.gouv.fr)",
+    "country": "FR",
+    "url": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/records",
+    "format": "opendatasoft-json",
+    "license": "Licence Ouverte / Etalab 2.0",
+    "key_required": false,
+    "realtime": true,
+    "per_station": true,
+    "coverage": "national",
+    "fuels": [
+      "gazole",
+      "sp95",
+      "sp98",
+      "e10",
+      "e85",
+      "gplc"
+    ]
+  },
+  "status": "active"
+}

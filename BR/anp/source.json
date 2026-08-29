@@ -1,0 +1,20 @@
+{
+  "source": {
+    "name": "ANP Série Histórica de Preços (semanal, média)",
+    "country": "BR",
+    "url": "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/precos-revenda-e-de-distribuicao-combustiveis",
+    "format": "xlsx",
+    "license": "ANP dados abertos",
+    "key_required": false,
+    "realtime": false,
+    "per_station": false,
+    "coverage": "national-weekly-avg",
+    "fuels": [
+      "gasolina",
+      "etanol",
+      "diesel",
+      "glp"
+    ]
+  },
+  "status": "active"
+}

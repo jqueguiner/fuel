@@ -1,0 +1,20 @@
+{
+  "source": {
+    "name": "Prix maximaux carburants (gouvernement, réglementé)",
+    "country": "LU",
+    "url": "https://data.public.lu/fr/datasets/prix-des-carburants/",
+    "format": "csv",
+    "license": "CC0 (data.public.lu)",
+    "key_required": false,
+    "realtime": false,
+    "per_station": false,
+    "coverage": "national-maxprice",
+    "fuels": [
+      "diesel",
+      "essence95",
+      "essence98",
+      "lpg"
+    ]
+  },
+  "status": "active"
+}

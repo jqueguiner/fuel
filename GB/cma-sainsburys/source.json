@@ -1,0 +1,21 @@
+{
+  "source": {
+    "name": "CMA scheme — Sainsbury's",
+    "country": "GB",
+    "url": "https://api.sainsburys.co.uk/v1/exports/latest/fuel_prices_data.json",
+    "format": "json",
+    "license": "UK CMA temporary scheme (open)",
+    "key_required": false,
+    "realtime": true,
+    "per_station": true,
+    "coverage": "national-retailer",
+    "fuels": [
+      "E5",
+      "E10",
+      "B7",
+      "SDV"
+    ]
+  },
+  "status": "active",
+  "note": "Some retailers block non-browser UAs; use a browser UA."
+}

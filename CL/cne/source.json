@@ -1,0 +1,21 @@
+{
+  "source": {
+    "name": "CNE Bencina en Línea (Comisión Nacional de Energía, token)",
+    "country": "CL",
+    "url": "https://api.cne.cl/api/listaInformacion",
+    "format": "json-api",
+    "license": "CNE open API (free token)",
+    "key_required": true,
+    "realtime": true,
+    "per_station": true,
+    "coverage": "national",
+    "fuels": [
+      "gasolina93",
+      "gasolina95",
+      "gasolina97",
+      "diesel",
+      "glp"
+    ]
+  },
+  "status": "needs-key"
+}

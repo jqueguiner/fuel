@@ -1,0 +1,20 @@
+{
+  "source": {
+    "name": "Παρατηρητήριο Τιμών Υγρών Καυσίμων (data.gov.gr, token)",
+    "country": "GR",
+    "url": "https://data.gov.gr/api/v1/query/oil_prices",
+    "format": "json-api",
+    "license": "data.gov.gr (free token)",
+    "key_required": true,
+    "realtime": true,
+    "per_station": false,
+    "coverage": "national-avg",
+    "fuels": [
+      "unleaded95",
+      "unleaded100",
+      "diesel",
+      "lpg"
+    ]
+  },
+  "status": "needs-key"
+}

@@ -1,0 +1,20 @@
+{
+  "source": {
+    "name": "DMRE Regulated Fuel Prices (monthly, fixed)",
+    "country": "ZA",
+    "url": "https://www.energy.gov.za/files/petroleum_frame.html",
+    "format": "pdf",
+    "license": "DMRE public",
+    "key_required": false,
+    "realtime": false,
+    "per_station": false,
+    "coverage": "national-regulated",
+    "fuels": [
+      "petrol93",
+      "petrol95",
+      "diesel",
+      "paraffin"
+    ]
+  },
+  "status": "active"
+}

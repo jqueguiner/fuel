@@ -1,0 +1,18 @@
+{
+  "source": {
+    "name": "IOCL/BPCL/HPCL daily retail selling price (city-level)",
+    "country": "IN",
+    "url": "https://iocl.com/petrol-diesel-price",
+    "format": "html",
+    "license": "OMC public",
+    "key_required": false,
+    "realtime": true,
+    "per_station": false,
+    "coverage": "city-level",
+    "fuels": [
+      "petrol",
+      "diesel"
+    ]
+  },
+  "status": "active"
+}

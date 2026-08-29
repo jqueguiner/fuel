@@ -1,0 +1,21 @@
+{
+  "source": {
+    "name": "Ministerio (sedeaplicaciones.minetur.gob.es) — Estaciones Terrestres",
+    "country": "ES",
+    "url": "https://sedeaplicaciones.minetur.gob.es/ServiciosRESTCarburantes/PreciosCarburantes/EstacionesTerrestres/",
+    "format": "json",
+    "license": "Datos abiertos (Gobierno de España)",
+    "key_required": false,
+    "realtime": true,
+    "per_station": true,
+    "coverage": "national",
+    "fuels": [
+      "gasoleo_a",
+      "gasolina_95",
+      "gasolina_98",
+      "glp",
+      "gnc"
+    ]
+  },
+  "status": "active"
+}

@@ -1,0 +1,20 @@
+{
+  "source": {
+    "name": "DGEG Preços Combustíveis Online",
+    "country": "PT",
+    "url": "https://precos.dgeg.gov.pt/api",
+    "format": "json-api",
+    "license": "DGEG open data",
+    "key_required": false,
+    "realtime": true,
+    "per_station": true,
+    "coverage": "national",
+    "fuels": [
+      "gasoleo",
+      "gasolina95",
+      "gasolina98",
+      "gpl"
+    ]
+  },
+  "status": "active"
+}

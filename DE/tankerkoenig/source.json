@@ -1,0 +1,19 @@
+{
+  "source": {
+    "name": "Tankerkönig (MTS-K official data, free API key)",
+    "country": "DE",
+    "url": "https://creativecommons.tankerkoenig.de/json/list.php",
+    "format": "json-api",
+    "license": "CC BY 4.0",
+    "key_required": true,
+    "realtime": true,
+    "per_station": true,
+    "coverage": "national",
+    "fuels": [
+      "diesel",
+      "e5",
+      "e10"
+    ]
+  },
+  "status": "needs-key"
+}

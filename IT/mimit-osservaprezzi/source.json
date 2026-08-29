@@ -1,0 +1,20 @@
+{
+  "source": {
+    "name": "MIMIT Osservaprezzi Carburanti (prezzo + anagrafica CSV)",
+    "country": "IT",
+    "url": "https://www.mimit.gov.it/images/exportCSV/prezzo_alle_8.csv",
+    "format": "csv",
+    "license": "IODL 2.0 (Italia)",
+    "key_required": false,
+    "realtime": true,
+    "per_station": true,
+    "coverage": "national",
+    "fuels": [
+      "benzina",
+      "gasolio",
+      "gpl",
+      "metano"
+    ]
+  },
+  "status": "active"
+}

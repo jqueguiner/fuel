@@ -1,0 +1,19 @@
+{
+  "source": {
+    "name": "E-Control Spritpreisrechner (regulated, free, rate-limited)",
+    "country": "AT",
+    "url": "https://api.e-control.at/sprit/1.0/search/gas-stations/by-address",
+    "format": "json-api",
+    "license": "E-Control open API",
+    "key_required": false,
+    "realtime": true,
+    "per_station": true,
+    "coverage": "national",
+    "fuels": [
+      "diesel",
+      "super95",
+      "cng"
+    ]
+  },
+  "status": "active"
+}
