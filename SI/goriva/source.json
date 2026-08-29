@@ -1,0 +1,15 @@
+{
+  "source": {
+    "name": "goriva.si — Slovenia fuel prices (open JSON API, per-station)",
+    "country": "SI",
+    "url": "https://goriva.si/api/v1/search/?format=json",
+    "format": "json-api",
+    "license": "goriva.si open API",
+    "key_required": false,
+    "realtime": true,
+    "per_station": true,
+    "coverage": "national",
+    "fuels": ["95", "98", "100", "dizel", "dizel-premium", "avtoplin-lpg", "cng", "hvo"]
+  },
+  "status": "active"
+}

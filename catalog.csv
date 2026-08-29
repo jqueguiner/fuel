@@ -28,6 +28,7 @@ KR,opinet,Opinet (Korea National Oil Corp) — per-station (free key),json-api,y
 LU,data.public.lu,"Prix maximaux carburants (gouvernement, réglementé)",csv,no,no,no,national-maxprice,https://data.public.lu/fr/datasets/prix-des-carburants/
 MX,cre,"CRE datos abiertos — precios de gasolina (per-station, keyless)",xml,no,yes,yes,national,https://publicacionexterna.azurewebsites.net/publicaciones/prices
 PT,dgeg,DGEG Preços Combustíveis Online,json-api,no,yes,yes,national,https://precos.dgeg.gov.pt/api
+SI,goriva,"goriva.si — Slovenia fuel prices (open JSON API, per-station)",json-api,no,yes,yes,national,https://goriva.si/api/v1/search/?format=json
 US,aaa,AAA Gas Prices — state/metro daily AVERAGES (keyless HTML),html,no,yes,no,state-average,https://gasprices.aaa.com/state-gas-price-averages/
 US,eia,"EIA gasoline/diesel prices (api.eia.gov, free key) — regional/state AVERAGES",json-api,yes,yes,no,state-average,https://api.eia.gov/v2/petroleum/pri/gnd/data/
 ZA,dmre,"DMRE Regulated Fuel Prices (monthly, fixed)",pdf,no,no,no,national-regulated,https://www.energy.gov.za/files/petroleum_frame.html
