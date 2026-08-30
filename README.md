@@ -11,7 +11,7 @@ it's per-station + real-time. Same idea as the gtfs catalog, for petrol/diesel/L
 catalog.csv                  # flat index
 ```
 
-## Coverage (25 sources, 14 countries)
+## Coverage (35 sources, 21 countries)
 Keyless + per-station real-time: **FR** (data.economie.gouv.fr), **ES** (minetur, 11k stations),
 **IT** (MIMIT Osservaprezzi), **GB** (CMA retailer feeds — Asda/BP/Morrisons/Sainsbury's/Tesco/MFG/…).
 Free-key: **DE** (Tankerkönig), **AT** (E-Control), **AU** (NSW FuelCheck), **GR**, **CL**.

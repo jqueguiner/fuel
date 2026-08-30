@@ -1,0 +1,23 @@
+{
+  "source": {
+    "name": "enecho (METI weekly)",
+    "country": "JP",
+    "url": "https://www.enecho.meti.go.jp/statistics/petroleum_and_lpgas/pl007/results.html",
+    "format": "html",
+    "license": "METI weekly",
+    "key_required": false,
+    "realtime": true,
+    "per_station": false,
+    "coverage": "national-avg",
+    "fuels": [
+      "gazole",
+      "sp95",
+      "sp98",
+      "gplc"
+    ]
+  },
+  "status": "discovered",
+  "_map_wired": false,
+  "_note": "auto-discovered; validate schema + wire a fuel_api branch in map_server.py",
+  "_sample": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html lang=\"ja\" xml:lang=\"ja\" xmlns=\"http://www.w3.org/1999/xhtml\">\n\n<head>\n<m"
+}

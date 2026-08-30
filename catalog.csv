@@ -24,9 +24,11 @@ GB,cma-tesco,CMA scheme — Tesco,json,no,yes,yes,national-retailer,https://www.
 GR,data.gov.gr,"Παρατηρητήριο Τιμών Υγρών Καυσίμων (data.gov.gr, token)",json-api,yes,yes,no,national-avg,https://data.gov.gr/api/v1/query/oil_prices
 IN,iocl-rsp,IOCL/BPCL/HPCL daily retail selling price (city-level),html,no,yes,no,city-level,https://iocl.com/petrol-diesel-price
 IT,mimit-osservaprezzi,MIMIT Osservaprezzi Carburanti (prezzo + anagrafica CSV),csv,no,yes,yes,national,https://www.mimit.gov.it/images/exportCSV/prezzo_alle_8.csv
+JP,enecho,enecho (METI weekly),html,no,yes,no,national-avg,https://www.enecho.meti.go.jp/statistics/petroleum_and_lpgas/pl007/results.html
 KR,opinet,Opinet (Korea National Oil Corp) — per-station (free key),json-api,yes,yes,yes,national,https://www.opinet.co.kr/api/
 LU,data.public.lu,"Prix maximaux carburants (gouvernement, réglementé)",csv,no,no,no,national-maxprice,https://data.public.lu/fr/datasets/prix-des-carburants/
 MX,cre,"CRE datos abiertos — precios de gasolina (per-station, keyless)",xml,no,yes,yes,national,https://publicacionexterna.azurewebsites.net/publicaciones/prices
+PL,gov-otwarte,gov-otwarte (dane.gov.pl),json-api,no,no,no,national-avg,https://api.dane.gov.pl/1.4/datasets?q=ceny+paliw
 PT,dgeg,DGEG Preços Combustíveis Online,json-api,no,yes,yes,national,https://precos.dgeg.gov.pt/api
 SI,goriva,"goriva.si — Slovenia fuel prices (open JSON API, per-station)",json-api,no,yes,yes,national,https://goriva.si/api/v1/search/?format=json
 US,aaa,AAA Gas Prices — state/metro daily AVERAGES (keyless HTML),html,no,yes,no,state-average,https://gasprices.aaa.com/state-gas-price-averages/

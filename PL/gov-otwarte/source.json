@@ -1,0 +1,23 @@
+{
+  "source": {
+    "name": "gov-otwarte (dane.gov.pl)",
+    "country": "PL",
+    "url": "https://api.dane.gov.pl/1.4/datasets?q=ceny+paliw",
+    "format": "json-api",
+    "license": "dane.gov.pl",
+    "key_required": false,
+    "realtime": false,
+    "per_station": false,
+    "coverage": "national-avg",
+    "fuels": [
+      "gazole",
+      "sp95",
+      "sp98",
+      "gplc"
+    ]
+  },
+  "status": "discovered",
+  "_map_wired": false,
+  "_note": "auto-discovered; validate schema + wire a fuel_api branch in map_server.py",
+  "_sample": "{\"links\": {\"next\": \"https://api.dane.gov.pl/1.4/datasets?q=ceny%20paliw&sort=id&page=2\", \"last\": \"https://api.dane.gov.pl/1.4/datasets?q=ceny%20paliw&sort=id&page=500\", \"self\": \"https://api.dane.gov.p"
+}
