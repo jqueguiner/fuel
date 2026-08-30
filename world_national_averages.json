@@ -1,0 +1,390 @@
+{
+ "_note": "Approx NATIONAL AVERAGE fuel prices (not live per-station). For countries without an open per-station feed. Refresh periodically. Sources: gov bulletins / GlobalPetrolPrices-class references.",
+ "_updated": "2026-08",
+ "prices": {
+  "DE": {
+   "petrol95": 1.75,
+   "diesel": 1.7,
+   "lpg": 1.05,
+   "currency": "EUR"
+  },
+  "NL": {
+   "petrol95": 2.12,
+   "diesel": 1.78,
+   "lpg": 1.05,
+   "currency": "EUR"
+  },
+  "BE": {
+   "petrol95": 1.72,
+   "diesel": 1.86,
+   "lpg": 0.72,
+   "currency": "EUR"
+  },
+  "LU": {
+   "petrol95": 1.52,
+   "diesel": 1.55,
+   "lpg": 0.62,
+   "currency": "EUR"
+  },
+  "PT": {
+   "petrol95": 1.73,
+   "diesel": 1.62,
+   "lpg": 0.8,
+   "currency": "EUR"
+  },
+  "IE": {
+   "petrol95": 1.76,
+   "diesel": 1.72,
+   "lpg": 0.95,
+   "currency": "EUR"
+  },
+  "FI": {
+   "petrol95": 1.86,
+   "diesel": 1.76,
+   "lpg": 0.99,
+   "currency": "EUR"
+  },
+  "GR": {
+   "petrol95": 1.86,
+   "diesel": 1.66,
+   "lpg": 0.95,
+   "currency": "EUR"
+  },
+  "PL": {
+   "petrol95": 6.35,
+   "diesel": 6.45,
+   "lpg": 2.75,
+   "currency": "PLN"
+  },
+  "CZ": {
+   "petrol95": 37.9,
+   "diesel": 35.9,
+   "lpg": 17.5,
+   "currency": "CZK"
+  },
+  "HU": {
+   "petrol95": 605.0,
+   "diesel": 625.0,
+   "lpg": 360.0,
+   "currency": "HUF"
+  },
+  "RO": {
+   "petrol95": 7.25,
+   "diesel": 7.65,
+   "lpg": 3.6,
+   "currency": "RON"
+  },
+  "HR": {
+   "petrol95": 1.46,
+   "diesel": 1.41,
+   "lpg": 0.72,
+   "currency": "EUR"
+  },
+  "DK": {
+   "petrol95": 14.6,
+   "diesel": 13.6,
+   "lpg": 6.9,
+   "currency": "DKK"
+  },
+  "SE": {
+   "petrol95": 18.6,
+   "diesel": 19.6,
+   "lpg": 11.5,
+   "currency": "SEK"
+  },
+  "NO": {
+   "petrol95": 22.5,
+   "diesel": 24.5,
+   "lpg": null,
+   "currency": "NOK"
+  },
+  "CH": {
+   "petrol95": 1.8,
+   "diesel": 1.86,
+   "lpg": null,
+   "currency": "CHF"
+  },
+  "TR": {
+   "petrol95": 44.5,
+   "diesel": 45.8,
+   "lpg": 24.5,
+   "currency": "TRY"
+  },
+  "UA": {
+   "petrol95": 55.5,
+   "diesel": 57.5,
+   "lpg": 33.5,
+   "currency": "UAH"
+  },
+  "RS": {
+   "petrol95": 206.0,
+   "diesel": 210.0,
+   "lpg": 118.0,
+   "currency": "RSD"
+  },
+  "BG": {
+   "petrol95": 2.55,
+   "diesel": 2.65,
+   "lpg": 1.25,
+   "currency": "BGN"
+  },
+  "SK": {
+   "petrol95": 1.66,
+   "diesel": 1.62,
+   "lpg": 0.75,
+   "currency": "EUR"
+  },
+  "LT": {
+   "petrol95": 1.6,
+   "diesel": 1.55,
+   "lpg": 0.75,
+   "currency": "EUR"
+  },
+  "LV": {
+   "petrol95": 1.65,
+   "diesel": 1.6,
+   "lpg": 0.78,
+   "currency": "EUR"
+  },
+  "EE": {
+   "petrol95": 1.68,
+   "diesel": 1.62,
+   "lpg": 0.79,
+   "currency": "EUR"
+  },
+  "US": {
+   "petrol95": 3.15,
+   "diesel": 3.65,
+   "lpg": null,
+   "currency": "USD/gal"
+  },
+  "CA": {
+   "petrol95": 1.55,
+   "diesel": 1.65,
+   "lpg": null,
+   "currency": "CAD"
+  },
+  "BR": {
+   "petrol95": 6.1,
+   "diesel": 6.3,
+   "lpg": 4.1,
+   "currency": "BRL"
+  },
+  "AR": {
+   "petrol95": 1100.0,
+   "diesel": 1050.0,
+   "lpg": null,
+   "currency": "ARS"
+  },
+  "CL": {
+   "petrol95": 1290.0,
+   "diesel": 1120.0,
+   "lpg": null,
+   "currency": "CLP"
+  },
+  "CO": {
+   "petrol95": 15600.0,
+   "diesel": 10800.0,
+   "lpg": null,
+   "currency": "COP"
+  },
+  "PE": {
+   "petrol95": 17.5,
+   "diesel": 16.0,
+   "lpg": null,
+   "currency": "PEN"
+  },
+  "UY": {
+   "petrol95": 79.0,
+   "diesel": 63.0,
+   "lpg": null,
+   "currency": "UYU"
+  },
+  "EC": {
+   "petrol95": 2.72,
+   "diesel": 1.8,
+   "lpg": null,
+   "currency": "USD"
+  },
+  "IN": {
+   "petrol95": 101.0,
+   "diesel": 91.0,
+   "lpg": null,
+   "currency": "INR"
+  },
+  "JP": {
+   "petrol95": 175.0,
+   "diesel": 155.0,
+   "lpg": null,
+   "currency": "JPY"
+  },
+  "KR": {
+   "petrol95": 1700.0,
+   "diesel": 1590.0,
+   "lpg": 1050.0,
+   "currency": "KRW"
+  },
+  "CN": {
+   "petrol95": 8.0,
+   "diesel": 7.5,
+   "lpg": null,
+   "currency": "CNY"
+  },
+  "TH": {
+   "petrol95": 40.5,
+   "diesel": 32.5,
+   "lpg": null,
+   "currency": "THB"
+  },
+  "ID": {
+   "petrol95": 13200.0,
+   "diesel": 13000.0,
+   "lpg": null,
+   "currency": "IDR"
+  },
+  "MY": {
+   "petrol95": 2.05,
+   "diesel": 3.35,
+   "lpg": null,
+   "currency": "MYR"
+  },
+  "SG": {
+   "petrol95": 2.95,
+   "diesel": 2.55,
+   "lpg": null,
+   "currency": "SGD"
+  },
+  "PH": {
+   "petrol95": 62.5,
+   "diesel": 60.5,
+   "lpg": null,
+   "currency": "PHP"
+  },
+  "VN": {
+   "petrol95": 22500.0,
+   "diesel": 20500.0,
+   "lpg": null,
+   "currency": "VND"
+  },
+  "TW": {
+   "petrol95": 31.5,
+   "diesel": 27.5,
+   "lpg": null,
+   "currency": "TWD"
+  },
+  "PK": {
+   "petrol95": 270.0,
+   "diesel": 275.0,
+   "lpg": null,
+   "currency": "PKR"
+  },
+  "BD": {
+   "petrol95": 122.0,
+   "diesel": 108.0,
+   "lpg": null,
+   "currency": "BDT"
+  },
+  "AE": {
+   "petrol95": 2.9,
+   "diesel": 3.05,
+   "lpg": null,
+   "currency": "AED"
+  },
+  "SA": {
+   "petrol95": 2.33,
+   "diesel": 1.15,
+   "lpg": null,
+   "currency": "SAR"
+  },
+  "IL": {
+   "petrol95": 7.4,
+   "diesel": 7.1,
+   "lpg": null,
+   "currency": "ILS"
+  },
+  "QA": {
+   "petrol95": 2.05,
+   "diesel": 2.1,
+   "lpg": null,
+   "currency": "QAR"
+  },
+  "KW": {
+   "petrol95": 0.105,
+   "diesel": 0.115,
+   "lpg": null,
+   "currency": "KWD"
+  },
+  "EG": {
+   "petrol95": 15.25,
+   "diesel": 13.5,
+   "lpg": null,
+   "currency": "EGP"
+  },
+  "MA": {
+   "petrol95": 15.2,
+   "diesel": 14.3,
+   "lpg": null,
+   "currency": "MAD"
+  },
+  "DZ": {
+   "petrol95": 45.6,
+   "diesel": 29.0,
+   "lpg": 9.0,
+   "currency": "DZD"
+  },
+  "TN": {
+   "petrol95": 2.53,
+   "diesel": 2.1,
+   "lpg": null,
+   "currency": "TND"
+  },
+  "ZA": {
+   "petrol95": 22.5,
+   "diesel": 21.5,
+   "lpg": null,
+   "currency": "ZAR"
+  },
+  "NG": {
+   "petrol95": 1020.0,
+   "diesel": 1150.0,
+   "lpg": null,
+   "currency": "NGN"
+  },
+  "KE": {
+   "petrol95": 191.0,
+   "diesel": 178.0,
+   "lpg": null,
+   "currency": "KES"
+  },
+  "GH": {
+   "petrol95": 13.5,
+   "diesel": 13.9,
+   "lpg": null,
+   "currency": "GHS"
+  },
+  "NZ": {
+   "petrol95": 2.92,
+   "diesel": 2.25,
+   "lpg": 1.55,
+   "currency": "NZD"
+  },
+  "RU": {
+   "petrol95": 56.5,
+   "diesel": 62.5,
+   "lpg": 27.5,
+   "currency": "RUB"
+  },
+  "KZ": {
+   "petrol95": 245.0,
+   "diesel": 350.0,
+   "lpg": 95.0,
+   "currency": "KZT"
+  },
+  "AZ": {
+   "petrol95": 1.5,
+   "diesel": 1.35,
+   "lpg": 0.6,
+   "currency": "AZN"
+  }
+ }
+}
