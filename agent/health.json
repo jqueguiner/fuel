@@ -3,7 +3,7 @@
   "AR/datos-energia": "000",
   "AT/e-control": "400",
   "AU/fuelwatch-wa": "200",
-  "AU/nsw-fuelcheck": "401",
+  "AU/nsw-fuelcheck": "000",
   "AU/qld-fuel": "404",
   "BR/anp": "200",
   "CL/cne": "404",
@@ -38,6 +38,7 @@
  },
  "dead": [
   "AR/datos-energia",
+  "AU/nsw-fuelcheck",
   "AU/qld-fuel",
   "CL/cne",
   "GB/cma-ascona",
