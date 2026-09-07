@@ -29,7 +29,7 @@
   "KR/opinet": "404",
   "LU/data.public.lu": "404",
   "MX/cre": "200",
-  "PL/gov-otwarte": "000",
+  "PL/gov-otwarte": "200",
   "PT/dgeg": "000",
   "SI/goriva": "200",
   "US/aaa": "403",
@@ -45,7 +45,6 @@
   "GR/data.gov.gr",
   "KR/opinet",
   "LU/data.public.lu",
-  "PL/gov-otwarte",
   "PT/dgeg",
   "ZA/dmre"
  ]
