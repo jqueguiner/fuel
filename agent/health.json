@@ -5,8 +5,8 @@
   "AU/fuelwatch-wa": "200",
   "AU/nsw-fuelcheck": "401",
   "AU/qld-fuel": "404",
-  "BR/anp": "503",
-  "CL/cne": "000",
+  "BR/anp": "200",
+  "CL/cne": "404",
   "DE/tankerkoenig": "200",
   "ES/minetur": "200",
   "FR/prix-carburants": "200",
@@ -39,7 +39,6 @@
  "dead": [
   "AR/datos-energia",
   "AU/qld-fuel",
-  "BR/anp",
   "CL/cne",
   "GB/cma-ascona",
   "GB/cma-sainsburys",
